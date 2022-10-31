@@ -1,34 +1,35 @@
 .header {
-	width: 92.5%;
-	display: flex;
-	margin: 0 auto;
-	padding-top: 28px;
-	justify-content: space-between;
-	text-decoration: none;
-	color: #fff;
-  }
+  width: 92.5%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-top: 28px;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #fff;
+}
 
-  @media screen and (max-width: 1024px) {
-	.header {
-		width: 90.6%;
-	}
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 90.6%;
   }
+}
 
-  @media screen and (max-width: 768px) {
-	.header {
-		width: 93.75%;
-	}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 93.75%;
   }
+}
 
-  @media screen and (max-width: 428px) {
-	.header {
-		width: 95%;
-	}
+@media screen and (max-width: 428px) {
+  .header {
+    width: 95%;
   }
+}
 
-  @media screen and (max-width: 320px) {
-	.header {
-		width: 90%;
-		padding-top: 16px;
-	}
+@media screen and (max-width: 320px) {
+  .header {
+    width: 90%;
+    padding-top: 16px;
   }
+}

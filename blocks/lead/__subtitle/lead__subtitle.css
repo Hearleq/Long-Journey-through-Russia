@@ -1,5 +1,5 @@
 .lead__subtitle {
-  width: 65%;
+  max-width: 640px;
   margin: 0 auto;
   padding-top: 32px;
   color: #fff;
@@ -9,31 +9,16 @@
   line-height: 36px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 666px) {
   .lead__subtitle {
-    width: 62.5%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead__subtitle {
-    width: 83.33%;
-  }
-}
-
-@media screen and (max-width: 428px) {
-  .lead__subtitle {
-    width: 80%;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
+    max-width: 288px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-    width: 90%;
     padding-top: 16px;
-    font-size: 16px;
-    line-height: 20px;
   }
 }
